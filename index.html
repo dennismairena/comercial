@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+  <title>ResponsiveSlides.js &middot; Alternative themes</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="responsiveslides.css">
+  <link rel="stylesheet" href="themes.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="responsiveslides.min.js"></script>
+  <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+    // Slideshow 
+      $("#slider2").responsiveSlides({
+        pager: true,
+        nav: true,
+        speed: 100,
+        maxwidth: 1000,
+        namespace: "transparent-btns"
+      });
+    });
+  </script>
+</head>
+
+<body>
+<header>
+<h1>comermo</h1>
+</header>
+
+<!-- Slideshow-->
+  <div id="wrapper">
+    <div class="rslides_container">
+      <ul class="rslides" id="slider2">
+        <li><img src="http://comermotech.com/images/SlideShow_Images/Comermo_Banner_1.jpg" alt=""></li>
+        <li><img src="http://comermotech.com/images/SlideShow_Images/Comermo_Banner_2.jpg" alt=""></li>
+        <li><img src="http://comermotech.com/images/SlideShow_Images/Comermo_Banner_3.jpg" alt=""></li>
+        <li><img src="http://comermotech.com/images/SlideShow_Images/Comermo_Banner_4.jpg" alt=""></li>
+        <li><img src="http://comermotech.com/images/SlideShow_Images/Comermo_Banner_5.jpg" alt=""></li>
+        <li><img src="http://comermotech.com/images/SlideShow_Images/Comermo_Banner_6.jpg" alt=""></li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
