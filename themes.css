@@ -4,7 +4,7 @@
   }
 
 html {
-  background: #fff;
+  background: #F3F2F3;
   }
 
 body {
@@ -15,16 +15,17 @@ body {
   padding: 0 30px;
   text-align: center;
   -webkit-font-smoothing: antialiased;
+
   }
 
-  header{background: rgba(0, 0, 0,0.1 );
+  header{background: rgba(0, 0, 0,0.2 );
     position:absolute;
     margin: 0;
     z-index: 100000;
     width: 100%;
     left:0;
     height: 200px;
-    border-bottom: solid #3E628A 5px;
+    
   }
   header>h1{margin:0;}
 
@@ -39,12 +40,12 @@ body {
 #logo>img{height:90px;
 float: left;
 margin:0 0 0 1em;
-bottom:0.3em;
+top:0.5em;
 position: relative;}
 #logo{
 max-width: 1000px;
 position:relative;
-border:solid blue 10px;
+
 margin: 0 auto;
 
 }
