@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
-  <title>ResponsiveSlides.js &middot; Alternative themes</title>
-   <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+  <meta name="description" content="Off canvas menu built with HTML5, CSS3, and JavaScript, based on Google's material design principles.">
+  <meta name="author" content="Nick Salloum">
+  <title>Material Design Off Canvas Menu with HTML5, CSS3, and JavaScript</title>
+  
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,700">
+  <link rel="stylesheet" href="css/style.min.css">
   <link rel="stylesheet" href="responsiveslides.css">
   <link rel="stylesheet" href="themes.css">
+
+  <meta property="og:title" content="Material Design Off Canvas Menu with HTML5, CSS3, and JavaScript">
+  <meta property="og:site_name" content="Call Me Nick">
+  <meta property="og:url" content="http://callmenick.com/_development/material-menu">
+  <meta property="og:image" content="http://callmenick.com/_development/material-menu/img/material-menu-featured.jpg">
+
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script src="responsiveslides.min.js"></script>
   <script>
@@ -22,19 +32,19 @@
       });
     });
   </script>
-</head>
 
+</head>
 <body>
-<header>
-<div id="logo"><img src="http://comermotech.com/images/LOGO_COMERMO_Horizontal_Big.png" alt="comercial"></div>
-</header>
+  
+<div id="wrapper" class="wrapper">
+ 
 
 <!-- Slideshow-->
   <div id="wrapper">
     <div class="rslides_container">
       <ul class="rslides" id="slider2">
         <li><img src="http://comermotech.com/images/SlideShow_Images/Comermo_Banner_1.jpg" alt=""></li>
-        <li><img src="http://comermotech.com/images/SlideShow_Images/Comermo_Banner_2.jpg" alt=""></li>
+        
         <li><img src="http://comermotech.com/images/SlideShow_Images/Comermo_Banner_3.jpg" alt=""></li>
         <li><img src="http://comermotech.com/images/SlideShow_Images/Comermo_Banner_4.jpg" alt=""></li>
         <li><img src="http://comermotech.com/images/SlideShow_Images/Comermo_Banner_5.jpg" alt=""></li>
@@ -42,6 +52,68 @@
       </ul>
     </div>
   </div>
+
+
+
+  <main>
+    <div class="container">
+
+
+      <section>
+        <h1>Material Menu</h1>
+        <div id="github-icons"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius esse corporis, velit porro impedit laudantium accusamus! Id velit, illum magni rem mollitia blanditiis iste maiores optio ipsa, est dolorem fugit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam repellendus odio consequatur, iure fuga, saepe sed, eum deserunt error praesentium enim provident qui voluptatibus rerum expedita blanditiis dicta nobis alias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa qui consequuntur eius aliquam, rerum deleniti. Ipsam neque, nam cumque, sunt, labore autem perferendis suscipit voluptatum praesentium dolores aspernatur quae assumenda.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit ea nihil dolorem sapiente ullam obcaecati ipsam omnis, commodi ratione atque aliquid suscipit harum asperiores voluptate accusantium, temporibus saepe fugit iusto.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius esse corporis, velit porro impedit laudantium accusamus! Id velit, illum magni rem mollitia blanditiis iste maiores optio ipsa, est dolorem fugit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam repellendus odio consequatur, iure fuga, saepe sed, eum deserunt error praesentium enim provident qui voluptatibus rerum expedita blanditiis dicta nobis alias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa qui consequuntur eius aliquam, rerum deleniti. Ipsam neque, nam cumque, sunt, labore autem perferendis suscipit voluptatum praesentium dolores aspernatur quae assumenda.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit ea nihil dolorem sapiente ullam obcaecati ipsam omnis, commodi ratione atque aliquid suscipit harum asperiores voluptate accusantium, temporibus saepe fugit iusto.</p>
+      </section>
+      <section>
+        <h1>Download &amp; Credits</h1>
+        <p>Get the code here - <a href="https://github.com/callmenick/Material-Menu">https://github.com/callmenick/Material-Menu</a></p>
+        <p>Built By - <a href="http://callmenick.com">Call Me Nick</a></p>
+      </section>
+    </div>
+  </main>
+</div><!-- /wrapper -->
+
+<button id="mm-menu-toggle" class="mm-menu-toggle">Toggle Menu</button>
+<nav id="mm-menu" class="mm-menu">
+  <div class="mm-menu__header">
+    <h2 class="mm-menu__title">COMERMO</h2>
+  </div>
+  <ul class="mm-menu__items">
+    <li class="mm-menu__item">
+      <a class="mm-menu__link" href="#">
+        <span class="mm-menu__link-text"><i class="md md-home"></i> Home</span>
+      </a>
+    </li>
+    <li class="mm-menu__item">
+      <a class="mm-menu__link" href="#">
+        <span class="mm-menu__link-text"><i class="md md-person"></i> Profile</span>
+      </a>
+    </li>
+    <li class="mm-menu__item">
+      <a class="mm-menu__link" href="#">
+        <span class="mm-menu__link-text"><i class="md md-inbox"></i> Inbox</span>
+      </a>
+    </li>
+    <li class="mm-menu__item">
+      <a class="mm-menu__link" href="#">
+        <span class="mm-menu__link-text"><i class="md md-favorite"></i> Favourites</span>
+      </a>
+    </li>
+    <li class="mm-menu__item">
+      <a class="mm-menu__link" href="#">
+        <span class="mm-menu__link-text"><i class="md md-settings"></i> Settings</span>
+      </a>
+    </li>
+  </ul>
+</nav><!-- /nav -->
+
+<script src="js/production/materialMenu.min.js"></script>
+<script>
+  var menu = new Menu;
+</script>
+
+
 
 </body>
 </html>
