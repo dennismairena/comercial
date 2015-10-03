@@ -29,7 +29,7 @@ body {
     
   }
   header>h1{margin:0;}
-.naveg{top: 64px;
+.naveg{top: 65px;
 position: absolute;}
 .nave{display:inline-block;
 float:left;
@@ -73,7 +73,7 @@ a {
   }
 
 .rslides_container {
-  margin-bottom: 50px;
+  
   position: relative;
   float: left;
   width: 100%;
@@ -203,12 +203,11 @@ a {
 @media only screen and (min-width : 320px) {
 
 .mm-menu-toggle{display: block;
-top:25px;
-width:20px;
-height:17px;}
+
+top:48px;width:28px;height:18px;}
 .naveg{display: none;}
-.barra>img{width:10em;}
-.mm-menu__header{height: 60px;}
+.barra>img{width:15em;}
+.mm-menu__header{height: 90px;}
 
 }
 
