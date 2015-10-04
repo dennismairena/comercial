@@ -5,7 +5,7 @@ Author URI: http://callmenick.com/
 Description: My theme
 Version: 0.1.0
 */a,article,aside,body,div,em,figcaption,figure,footer,h1,h2,h3,h4,h5,h6,header,html,img,li,nav,ol,p,section,small,span,strong,ul{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}
-article,aside,figcaption,figure,footer,header,main,nav,section{display:block}
+article,aside,figcaption,figure,footer,header,nav,section{display:block}
 ol,ul{list-style:none;margin:0;padding:0}
 button{margin:0;padding:0;color:inherit;font-family:inherit;font-size:inherit;background:0 0;border:none;border-radius:none;box-shadow:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;outline:0;cursor:pointer}
 *,::after,::before{box-sizing:border-box}.clearfix::after{content:"";display:table;clear:both}
@@ -20,7 +20,7 @@ a{color:#CDDC39;text-decoration:none}
 .wrapper{z-index:5;-webkit-transition:-webkit-transform .5s;transition:transform .5s}
 .wrapper.mm-menu-open{-webkit-transform:translateX(300px);-ms-transform:translateX(300px);transform:translateX(300px)}
 .container{padding:0}
-main{padding:36px 0}
+
 section{margin-bottom:36px}
 }
 .header{padding:24px 0;text-align:center;

@@ -17,6 +17,56 @@ body {
   -webkit-font-smoothing: antialiased;
 
   }
+body{-webkit-animation: fadein 2s; /* Safari and Chrome */
+       -moz-animation: fadein 2s; /* Firefox */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​
+
+/* Opera */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }}
+
+
+#IrArriba {
+position: fixed;
+bottom: 30px; /* Distancia desde abajo */
+right: 10px; /* Distancia desde la derecha */
+z-index: 2000;
+}
+
+#IrArriba span {
+width: 64px; /* Ancho del botón */
+height: 64px; /* Alto del botón */
+display: block;
+background: url("img/arriba.png") no-repeat center center;
+z-index: 2000}
+
 
   header;
     position:absolute;
@@ -29,15 +79,16 @@ body {
     
   }
   header>h1{margin:0;}
-.naveg{top: 65px;
+.naveg{top: 60px;
 position: absolute;}
 .nave{display:inline-block;
 float:left;
-padding:0 1em 0 1em;
+padding:0 1em 1.7em 1em;
 position: relative;
 margin: 0 auto;
 font-weight: bold;
 height: 27px;
+
 }
 #select{border-bottom: #7DB6E3 solid 8px;
 z-index: 10000000000000000}
