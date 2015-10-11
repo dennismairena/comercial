@@ -94,7 +94,7 @@ body{-webkit-animation: fadein 2s; /* Safari and Chrome */
 #IrArriba {
 position: fixed;
 bottom: 30px; /* Distancia desde abajo */
-right: 10px; /* Distancia desde la derecha */
+right: 10px; /* Distancia desde la derech */
 z-index: 2000;
 }
 
