@@ -42,19 +42,20 @@
   }
 
 html {
-  background: #F3F2F3;
+  background: #e7e7e7;
   }
 
 body {
-  color: #333;
+  
   font: 14px/24px sans-serif;
   margin: 0 auto;
-  max-width: 1000px;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
   padding: 0 30px;
   text-align: center;
   -webkit-font-smoothing: antialiased;
 
   }
+
 body{-webkit-animation: fadein 2s; /* Safari and Chrome */
        -moz-animation: fadein 2s; /* Firefox */
         -ms-animation: fadein 2s; /* Internet Explorer */
@@ -106,18 +107,9 @@ background: url("img/arriba.png") no-repeat center center;
 z-index: 2000}
 
 
-  header;
-    position:absolute;
-    margin: 0;
-    
-    width: 100%;
-    left:0;
-    height: 200px;
-    top:20px;
-    
-  }
+
   header>h1{margin:0;}
-.naveg{top: 60px;
+.naveg{top: 62px;
 position: absolute;
 z-index: 10000000000000000;}
 .nave{display:inline-block;
@@ -131,11 +123,12 @@ transition: all 0.3s ease-in;
 
 }
 
-.nave:hover{border-bottom: #7DB6E3 solid 8px;
+.nave:hover{border-bottom: #03A9F4 solid 5px;
 z-index: 10000000000000000;
 }
-#select{border-bottom: #7DB6E3 solid 8px;
-z-index: 10000000000000000}
+#select{border-bottom: #03A9F4 solid 5px;
+z-index: 10000000000000000;
+}
 
 
 
@@ -179,6 +172,7 @@ a {
   position: relative;
   float: left;
   width: 100%;
+  top:20px;
   }
 
 .centered-btns_nav {
@@ -261,7 +255,7 @@ a {
 .centered-btns_tabs,
 .transparent-btns_tabs,
 .large-btns_tabs {
-  margin-top: 10px;
+  
   text-align: center;
   }
 
@@ -307,8 +301,15 @@ box-shadow:0 0 10px 0 rgba(0,0,0,.3);
 margin: 0.5em 0 1em 0;
 text-align: justify;
 padding:1em;
+max-width: 1000px;
+margin:2em auto 0 auto;
  }
- .con>p{color:#003A92}
+ .con>p{color:gray}
+.barrita{
+max-width: 1000px;
+margin:0 auto;
+}
+ body{border-bottom: rgba(0,0,0,0.5) solid 5px}
 @media only screen and (min-width : 320px) {
 
 .mm-menu-toggle{display: block;
@@ -320,11 +321,12 @@ top:38px;width:28px;height:18px;}
 .barra>div>img{width:6em;
 position: relative;
 top:0.5em;}
-.barra>div{margin: 0;
+.barra>div{margin: 0;http://comermotech.com/images/SlideShow_Images/Comermo_Banner_3.jpg
 display:block;
 float:right;
-padding:0;
-}
+padding:0;}
+body{height: 65px;}
+
 }
 
 @media only screen and (min-width : 768px) {
@@ -338,6 +340,7 @@ top:60px;width:28px;height:18px;}
 }
 .barra>div{display: none;}
 .mm-menu__header{height: 100px;}
+body{height: 90px;}
 }
 
 
@@ -345,6 +348,7 @@ top:60px;width:28px;height:18px;}
   .barra>div{display: none;}
   .mm-menu-toggle{display: none;}
   .naveg{display: block;}
-  .rslides{border-top:8px solid rgba(0,0,0,0.5)}
+  
+ 
 
 }

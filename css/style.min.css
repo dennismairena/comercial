@@ -3,7 +3,7 @@ article,aside,figcaption,figure,footer,header,nav,section{display:block}
 ol,ul{list-style:none;margin:0;padding:0}
 button{margin:0;padding:0;color:inherit;font-family:inherit;font-size:inherit;background:0 0;border:none;border-radius:none;box-shadow:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;outline:0;cursor:pointer}
 *,::after,::before{box-sizing:border-box}.clearfix::after{content:"";display:table;clear:both}
-body{color:#727272;background-color:#F3F2F3;font-family:Roboto,sans-serif;font-size:16px;font-weight:300;line-height:1.6}
+body{color:#03A9F4;background-color:rgba(255,255,255,0.5);font-family:Roboto,sans-serif;font-size:16px;font-weight:300;line-height:1.6}
 body.mm-menu-open{overflow:hidden}
 h1,h2,h3,h4,h5,h6{margin-bottom:22px;color:#212121;line-height:1}
 h1{font-size:36px}
@@ -35,8 +35,11 @@ height: 100px;
 
 
 
-.mm-menu-toggle{position:absolute;top:60px;left:0px;z-index:200000;width:30px;height:18px;background:-webkit-linear-gradient(90deg,rgba(33,33,33,0),rgba(33,33,33,0) 7px,#212121 7px,#212121 11px,rgba(33,33,33,0) 11px,rgba(33,33,33,0) 18px);background:linear-gradient(0deg,rgba(33,33,33,0),rgba(33,33,33,0) 7px,#212121 7px,#212121 11px,rgba(33,33,33,0) 11px,rgba(33,33,33,0) 18px);font-size:0;text-indent:-9999px}
-.mm-menu-toggle::after,.mm-menu-toggle::before{display:block;position:absolute;left:0;width:100%;height:4px;background-color:#212121;content:""}
+.mm-menu-toggle{position:absolute;top:60px;left:0px;z-index:200000;width:30px;height:18px;
+	background:-webkit-linear-gradient(90deg,rgba(33,33,33,0),rgba(33,33,33,0) 7px,rgba(0,0,0,0.8) 7px,rgba(0,0,0,0.8) 11px,rgba(33,33,33,0) 11px,rgba(33,33,33,0) 18px);
+	background:linear-gradient(0deg,rgba(33,33,33,0),rgba(33,33,33,0) 7px,rgba(0,0,0,0.8) 7px,rgba(0,0,0,0.8) 11px,rgba(33,33,33,0) 11px,rgba(33,33,33,0) 18px);
+	font-size:0;text-indent:-9999px}
+.mm-menu-toggle::after,.mm-menu-toggle::before{display:block;position:absolute;left:0;width:100%;height:4px;background-color:rgba(0,0,0,0.8);content:""}
 .mm-menu-toggle::before{top:0;-webkit-transform-origin:bottom left;-ms-transform-origin:bottom left;transform-origin:bottom left}
 .mm-menu-toggle::after{bottom:0;-webkit-transform-origin:top left;-ms-transform-origin:top left;transform-origin:top left}
 .mm-menu-toggle,.mm-menu-toggle::after,.mm-menu-toggle::before{-webkit-transition:all .5s;transition:all .5s}
@@ -48,7 +51,7 @@ height: 100px;
 
 @media all and (min-width:300px){
 .mm-menu{width:250px;-webkit-transform:translateX(-300px);-ms-transform:translateX(-300px);transform:translateX(-300px)}}
-.mm-menu__header{position:relative;width:100%;height:100px;background-color:#7DB6E3; box-shadow: inset 0 0 20px 0 rgba(0,0,0,0.5);}
+.mm-menu__header{position:relative;width:100%;height:100px; background-image: url("http://i.imgur.com/jdW3RBV.jpg"); box-shadow: inset 0 0 20px 0 rgba(0,0,0,0.5);}
 .mm-menu__title{position:absolute;bottom:12px;left:12px;margin:0;padding:0;color:#fff;font-size:22px}
 .mm-menu__items{list-style:none;margin:0;padding:0}
 .mm-menu__item{display:block;width:100%;opacity:0;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}
@@ -73,7 +76,8 @@ height: 100px;
 .mm-menu__item.item-18{-webkit-transition:opacity .5s 1.8s,-webkit-transform .5s 1.8s;transition:opacity .5s 1.8s,transform .5s 1.8s}
 .mm-menu__item.item-19{-webkit-transition:opacity .5s 1.9s,-webkit-transform .5s 1.9s;transition:opacity .5s 1.9s,transform .5s 1.9s}
 .mm-menu__item.item-20{-webkit-transition:opacity .5s 2s,-webkit-transform .5s 2s;transition:opacity .5s 2s,transform .5s 2s}
-.mm-menu__link{display:block;position:relative;overflow:hidden;margin:4px 0;padding:12px;color:#727272;font-size:16px;text-decoration:none;-webkit-transition:background .5s,color .5s;transition:background .5s,color .5s}
+.mm-menu__link{display:block;position:relative;overflow:hidden;padding:12px;color:#727272;font-size:16px;text-decoration:none;-webkit-transition:background .5s,color .5s;transition:background .5s,color .5s}
+#seleccion{border-left:solid 5px #03A9F4;}
 .mm-menu__link-text{position:relative;z-index:2;color:rgba(0,0,0,0.7);}
 .mm-menu__link--touch-effect{display:block;position:absolute;z-index:1;width:0;height:0;border-radius:100%;background-color:#B6B6B6;-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);-webkit-transform-origin:50% 50%;-ms-transform-origin:50% 50%;transform-origin:50% 50%}
 .mm-menu__link--touch-effect.animating{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);-webkit-transition:-webkit-transform .5s;transition:transform .5s}
