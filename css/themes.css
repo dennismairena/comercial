@@ -109,7 +109,7 @@ z-index: 2000}
 
 
   header>h1{margin:0;}
-.naveg{top: 62px;
+.naveg{top: 61px;
 position: absolute;
 z-index: 10000000000000000;}
 .nave{display:inline-block;
@@ -123,12 +123,14 @@ transition: all 0.3s ease-in;
 
 }
 #titulo{background:#2297F7;
+
 margin: 0;
 position: relative;
 top: 0;
+
 }
 #titulo>h3{line-height: 200%;
-color:white;
+color:rgba(255,255,255,0.5);
 margin-left: 1em;}
 .nave:hover{border-bottom: #03A9F4 solid 5px;
 z-index: 10000000000000000;
@@ -310,9 +312,14 @@ text-align: justify;
 max-width: 1000px;
 margin:2em auto 1em auto;
  }
- .con>p{color:gray;
- padding:1em;
+
+ .con>p{color:rgba(0,0,0,0.55);
+ padding:0 1em 1em 1em;
+ 
 }
+
+
+
 .barrita{
 max-width: 1000px;
 margin:0 auto;
