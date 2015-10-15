@@ -341,7 +341,7 @@ display:block;
 float:right;
 padding:0;}
 body{height: 65px;}
-
+#wrapper>div>ul>li>iframe{height:200px;}
 }
 
 @media only screen and (min-width : 768px) {
@@ -353,9 +353,11 @@ top:60px;width:28px;height:18px;}
   display:block;
   position: relative;
 }
+
 .barra>div{display: none;}
 .mm-menu__header{height: 100px;}
 body{height: 90px;}
+#wrapper>div>ul>li>iframe{height:250px;}
 }
 
 
@@ -364,6 +366,7 @@ body{height: 90px;}
   .mm-menu-toggle{display: none;}
   .naveg{display: block;}
   
- 
+ #wrapper>div>ul>li>iframe{height:300px;}
+}
 
 }
