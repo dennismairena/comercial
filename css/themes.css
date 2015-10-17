@@ -44,7 +44,7 @@
 }
 
 #movil:before{
-  content: "\e801";
+  content: "\e807";
   font-family: 'icomoon';
   margin-right: 3px;
   color:rgba(0,0,0,.8);
@@ -57,6 +57,7 @@
   margin-right: 3px;
   color:rgba(0,0,0,.8);
     padding-left:0.5em;
+
 }
 
 #correo:before{
@@ -154,14 +155,25 @@ height: 27px;
 transition: all 0.3s ease-in;
 
 }
-#titulo{background:#2297F7;
+#titulo1{background:#2297F7;
 
 margin: 0;
 position: relative;
 top: 0;
 
 }
-#titulo>h3{line-height: 200%;
+#titulo1>h3{line-height: 200%;
+color:rgba(255,255,255,0.5);
+margin-left: 1em;}
+
+#titulo2{background:#2297F7;
+
+margin: 0;
+position: relative;
+top: 0;
+
+}
+#titulo2>h3{line-height: 200%;
 color:rgba(255,255,255,0.5);
 margin-left: 1em;}
 .nave:hover{border-bottom: #03A9F4 solid 5px;
@@ -341,35 +353,32 @@ display: inline-block;
 box-shadow:0 0 10px 0 rgba(0,0,0,.3);
 text-align: justify;
 width: 100%;
-margin:2em auto 1em auto;
+margin-bottom: 1em;
+padding-bottom: 1em;
+;
  }
+ 
 
  .con>p{color:rgba(0,0,0,0.55);
  padding:0 1em 1em 1em;
 }
-
-.lado1{
-width: 55%;
-margin-top: 1em;
-float:left;
-padding:0 1em;
-}
-.lado1>a{font-size:1.2em;
-text-align: left;
-padding-left: 1em;
-padding-bottom:1em;
-color:gray; }
-.lado1>a>span{margin-left:2.5em;
-}
-.lado2{
-float:right;
-width: 45%;
-}
-.lado2>img{height:13em;
-float:right;
-padding-right: 2em;
+.con>a{padding-left: 1em;}
+.con>a:before{padding-right:0.3em;}
+.burrito{max-width:1000px;
+margin: 0 auto;
 position: relative;
-bottom: 0.5em;}
+top:30px;}
+#con1{
+
+float:left;
+
+
+}
+
+#con2{
+  
+float:right;}
+
 
 .barrita{
 max-width: 1000px;
@@ -393,8 +402,8 @@ float:right;
 padding:0;}
 body{height: 65px;}
 #wrapper>div>ul>li>iframe{height:200px;}
-.lado2{display: none;}
-.lado1{width: 100%;}
+#titulo2{background:#4DB7AD;}
+
 }
 
 @media only screen and (min-width : 768px) {
@@ -407,13 +416,14 @@ top:60px;width:28px;height:18px;}
   position: relative;
 
 }
-.lado2{display: none;}
-.lado1{width: 100%;}
+
 
 .barra>div{display: none;}
 .mm-menu__header{height: 100px;}
 body{height: 90px;}
 #wrapper>div>ul>li>iframe{height:250px;}
+#con1,#con2{width: 49%;}
+#titulo2{background:#2297F7;}
 }
 
 
@@ -421,10 +431,8 @@ body{height: 90px;}
   .barra>div{display: none;}
   .mm-menu-toggle{display: none;}
   .naveg{display: block;}
-  .lado2{display: block;}
-  .lado1{width: 55%;}
  #wrapper>div>ul>li>iframe{height:300px;}
- .con{max-width: 1000px;}
+ #titulo2{background:#2297F7;}
+.con{max-width: 1000px;}
 }
-
 }
