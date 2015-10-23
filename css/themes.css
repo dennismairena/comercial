@@ -16,12 +16,17 @@
   margin-right: 3px;
   color:rgba(0,0,0,.4);
 }
+
+
 #icon-phone:before {
   content: "\e801";
   font-family: 'icomoon';
-   margin-right: 3px;
-   color:rgba(0,0,0,.4);
+  position:relative;
+  right: 10px;
 }
+
+
+
 #icon-user-tie:before {
   content: "\e802";
   font-family: 'icomoon';
@@ -39,7 +44,6 @@
   content: "\e805";
   font-family: 'icomoon';
   margin-right: 3px;
-  color:rgba(0,0,0,.8);
   padding-left:0.5em;
 }
 
@@ -47,28 +51,42 @@
   content: "\e807";
   font-family: 'icomoon';
   margin-right: 3px;
-  color:rgba(0,0,0,.8);
     padding-left:0.5em;
-}
-
-#direccion:before{
-  content: "\e806";
-  font-family: 'icomoon';
-  margin-right: 3px;
-  color:rgba(0,0,0,.8);
-    padding-left:0.5em;
-
 }
 
 #correo:before{
   content: "\e804";
   font-family: 'icomoon';
   margin-right: 3px;
-  color:rgba(0,0,0,.8);
-    padding-left:0.5em;
+  padding-left:0.5em;
 }
 
+#fb:before{
+  content: "\e900";
+  font-family: 'icomoon';
+  margin-right: 3px;
+  padding-left:0.5em;
+}
 
+#fb:hover{
+  color:#3949AB;
+
+}
+
+#ins:before{
+  content: "\e901";
+  font-family: 'icomoon';
+  margin-right: 3px;
+  padding-left:0.5em;
+
+}
+
+#tw:before{
+  content: "\e902";
+  font-family: 'icomoon';
+  margin-right: 3px;
+  padding-left:0.5em;
+}
 * {
   margin: 0;
   padding: 0;
@@ -372,13 +390,15 @@ top:30px;}
 #con1{
 
 float:left;
-
-
+position: relative;
+z-index:1000000000000;
 }
 
 #con2{
   
-float:right;}
+float:right;
+position:relative;
+z-index:1000000000000;}
 
 
 .barrita{
