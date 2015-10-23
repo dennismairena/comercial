@@ -61,6 +61,7 @@
   padding-left:0.5em;
 }
 
+
 #fb:before{
   content: "\e900";
   font-family: 'icomoon';
@@ -87,6 +88,8 @@
   margin-right: 3px;
   padding-left:0.5em;
 }
+.fb-like{margin:0 auto;
+background: red;}
 * {
   margin: 0;
   padding: 0;
