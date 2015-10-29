@@ -431,7 +431,8 @@ body{height: 65px;}
 #titulo2{background:#4DB7AD;}
 .fb-like{height: 80px;
 margin-right:1em;
-border: solid blue 10px;}
+border: solid blue 10px;
+position: relative;}
 }
 
 @media only screen and (min-width : 768px) {
