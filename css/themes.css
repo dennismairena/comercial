@@ -429,7 +429,8 @@ padding:0;}
 body{height: 65px;}
 #wrapper>div>ul>li>iframe{height:200px;}
 #titulo2{background:#4DB7AD;}
-
+.fb-like{max-height: 100px;
+width: 100%;}
 }
 
 @media only screen and (min-width : 768px) {
