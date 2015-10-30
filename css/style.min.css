@@ -8,7 +8,7 @@ body.mm-menu-open{overflow:hidden}
 h1,h2,h3,h4,h5,h6{margin-bottom:22px;color:#212121;line-height:1}
 h1{font-size:36px}
 h2{font-size:22px}
-p{margin-bottom:22px}
+
 p:last-child{margin-bottom:0}
 a{color:#CDDC39;text-decoration:none}
 .wrapper{z-index:5;-webkit-transition:-webkit-transform .5s;transition:transform .5s}
